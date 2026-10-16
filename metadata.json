@@ -1,0 +1,6 @@
+{
+  "name": "Neik Amaal - Daily Accountability Tracker",
+  "description": "جامع ڈیجیٹل نیک اعمال ڈیش بورڈ، روزانہ کا محاسبہ، رپورٹس، ٹیمپلیٹس اور تھیمز",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

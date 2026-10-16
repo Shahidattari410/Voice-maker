@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --app-font-family: 'Noto Nastaliq Urdu', serif;
+  }
+
+  body {
+    font-family: var(--app-font-family);
+    direction: rtl;
+    text-align: right;
+  }
+}
+
+.urdu-title {
+  font-family: var(--app-font-family);
+  line-height: 1.6;
+}
+
+.urdu-content {
+  font-family: var(--app-font-family);
+  line-height: 1.8;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  header, nav, button {
+    display: none !important;
+  }
+  #printable-report {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
